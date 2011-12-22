@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+	<title>AS3NUI/AIRKinect @ GitHub</title>
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+  <style type="text/css">
+    body {
+      background-color: #222222;
+	  font-family: 'Droid Sans', sans-serif;
+      color: #ffffff;
+	  padding:0;
+	  margin:30px;
+    }
+	
+    #container {
+      margin: 0 auto;
+      width: 750px;
+	  padding:25px;
+	  background-color:#111;
+	  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+		-moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+		box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+		-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+    }
+	
+    h1 { margin-top:15px; font-size: 4.5em; color: #76B336; margin-bottom: 3px; }
+    h1 .small { font-size: 0.4em; }
+    h1 a { text-decoration: none }
+    h2 { font-size: 1.5em; color: #76B336; }
+    h3 { color: #76B336; }
+    a { color: #5B8F24; }
+	
+    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
+    .download { float: right; }
+    
+	hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
+    .footer { text-align:center; padding-top:30px; font-style: italic; }
+	ul { list-style-type: none;}
+	li {padding-bottom:8px;}
+	
+	li a { color:#fff !important; }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+
+    <div class="download">
+	<a href="http://as3nui.com">
+        <img border="0" width="90" src="./images/blog.png"></a>
+      <a href="https://github.com/AS3NUI/AIRKinect/zipball/master">
+        <img border="0" width="90" src="https://github.com/images/modules/download/zip.png"></a>
+      <a href="https://github.com/AS3NUI/AIRKinect/tarball/master">
+        <img border="0" width="90" src="https://github.com/images/modules/download/tar.png"></a>
+    </div>
+
+    <h1><a href="https://github.com/AS3NUI/AIRKinect">AIRKinect</a></h1>
+
+    <div class="description">
+      Microsoft Kinect SDK Native Extension for Flash
+    </div>
+	
+	<h2>Authors</h2>
+	<ul>
+		<li><a href="mailto:rgerbasi@gmail.com">Ross Gerbasi (rgerbasi@gmail.com)<a/></li>
+		<li><a href="mailto:justin@justinimhoff.com">Justin Imhoff (justin@justinimhoff.com)</a></li>
+		<li><a href="mailto:wouter@aboutme.be">Wouter Verweirder (wouter@aboutme.be)</a></li>
+	</ul>
+    
+	<h2>Documentation</h2>
+	<ul>
+		<li> <a target="_blank" href="docs/AIRKinect/index.html">AIRKinect</a></li>
+		<li> <a target="_blank" href="docs/AIRKinect-Extended/index.html">AIRKinect-Extended</a></li>
+	</ul>
+
+    <h2>Download</h2>
+		<ul>
+			<li>
+				<h3>AIRKinect</h3>
+				<ul>
+					<li><a href="#">Native Extension <small>(AIRKinect.ane)</small></a></li>
+					<li><a href="#">AS3 Library <small>(AIRKinect.swc)</small></a></li>
+					<li><a href="#">Demos Windows Installer <small>(AirKinectDemos.exe)</small></a></li>
+					<li><a href="#">Demos with Source <small>(AirKinectDemos.zip)</small></a></li>
+				</ul>
+			</li>
+			<li>
+				<h3>AIRKinect-Extended</h3>
+				<ul>
+					<li><a href="#">AS3 Library <small>(AIRKinect-Extended.swc)</small></a></li>
+					<li><a href="#">Extended Demos Windows Installer <small>(AirKinectExtendedDemos.exe)</small></a></li>
+					<li><a href="#">Extended Demos with Source <small>(AirKinectExtendedDemo.zip)</small></a></li>
+				</ul>
+			</li>
+		</ul>
+	
+      You can download this project in either
+      <a href="https://github.com/AS3NUI/AIRKinect/zipball/master">zip</a> or
+      <a href="https://github.com/AS3NUI/AIRKinect/tarball/master">tar formats.
+    </p>
+    <div class="footer">
+      get the source code on GitHub : <a href="https://github.com/AS3NUI/AIRKinect">AS3NUI/AIRKinect</a>
+    </div>
+  </div>
+
+</body>
+</html>
