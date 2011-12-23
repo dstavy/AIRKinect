@@ -46,9 +46,37 @@ Note from the authors:
 ====================================
 Please send us demos to highlight projects using AIRKinect and provide feedback on use or create issues so we know what the community needs and is looking for. We want to empower the Flash developer to create amazing experiences and anything that will best promote this is our goal. 
 
-Updates:
-========
+AIRKinect-Extended Updates:
 
+---- December 22, 2011: Version 1.0:
+	1) AIRKinectManager for managing Skeleton Add/Remove/Update along with Camera Updates.
+	2) 3D Regions
+	3) Basic Velocity Based Gestures with Manager
+	4) ManagedSkeletons with history
+	5) PointCloudHelper for saving Point Clouds in standard formats.
+	6) SkeletonSimulator for Recording and Playback of SkeletonXML
+	7) UI
+		1) UIManager to handle Cursor event dispatching
+		2) MouseSiulator translates mouse into a cursor for testing or Web demos
+		3) UI Components
+			1) SelectableHandle (cursor snapping & timer based selection)
+			2) Target (rollover behavior & timer based selection)
+			3) HotSpot (Rollover based selection)
+			4) SlideHandle (cursor snapping, slide progress & slide based selection)
+			5) RepeatingSelectableHandle (cursor snapping & repeatable timer based selection )
+			6) CrankHandle (cursor snapping & rotation based endless scroll)
+
+
+AIRKinect Updates:
+========
+---- December 22, 2011: Version 1.6:
+
+	1) Skeleton to RGB & Depth Space Translation (windows only)
+	2) Per Pixel Depth information via ByteArray (point cloud)
+	3) Renaming & Restructing of Classes
+	4) Updated to AIR 3.1
+	5) Kinect-less Support. Proper Handling when No Kinect is connected.
+	
 ---- November 29, 2011: Version 1.5.
 
 Version 1.5 adds support for the open source drivers on OSX. Most of the features work, except:
@@ -72,7 +100,3 @@ Version 1 of the AIRKinect Native Extension includes:
 Notes:
 With depth video at 320x340 and rgb video at 640x480, you should recieve updates at 30fps at stable for depth,rgb, and skeleton.
 As the resolution increases the frames with decrease. Because the extension runs at 30fps, it is suggestable to increase the application fps to 30fps or above for best performance. 
-
-
-
-
